@@ -16,11 +16,10 @@ function add(numbers) {
  */
 function multi(numbers) {
   let result = 1;
-  for (const sum of numbers) {
-    result = result * sum;
+  for (const num of numbers) {
+    result = result * num;
   }
   return result;
-
 }
 
 module.exports = { add, multi };
