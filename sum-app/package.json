@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "sum": "../sum"
+  },
+  "name": "sum-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
