@@ -11,4 +11,15 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+/**
+ * 数列の配列を受け取り、その要素の積を返す関数
+ */
+ function multi(numbers) {
+  let result = 1;
+  for (const i of numbers) {
+      result = result * i;
+  }
+  return result;
+}
+
+module.exports = { add, multi };
