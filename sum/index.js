@@ -20,7 +20,6 @@ function multi(numbers) {
   for (const num of numbers) {
     result *= num;
   }
-
   return result;
 }
 
