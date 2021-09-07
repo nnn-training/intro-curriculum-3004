@@ -11,4 +11,20 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+/**
+ * 配列で渡された 整数を全て掛けあわせて返す関数
+ */
+function multi(numbers) {
+  let result = 1;
+  for (const num of numbers) {
+    if (Number.isInteger(num) === true) {
+      result = result * num;
+    } else {
+      console.log('配列の中に整数以外の値が含まれています');
+      break;
+    }
+  }
+  return result;
+}
+
+module.exports = { add, multi };
