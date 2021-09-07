@@ -11,4 +11,17 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+/**
+ * 配列で渡された 整数を全て掛けあわせて返す関数
+ * @param {配列} numbers 
+ * @returns num
+ */
+function multi(numbers) {
+  let result = 1;
+  for (const num of numbers) {
+    result *= num;
+  }
+  return result;
+}
+
+module.exports = { add, multi };
