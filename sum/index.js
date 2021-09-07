@@ -11,4 +11,12 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+function multi(array) {
+  let result = 1;
+  array.forEach(element => {
+    result = result * element;
+  });
+  return result;
+}
+
+module.exports = { add, multi };
