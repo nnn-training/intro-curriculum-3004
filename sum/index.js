@@ -11,4 +11,15 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+
+function tinko(numbers) {
+  let lesult = 1;
+  for (const num of numbers){
+    lesult = lesult * num;
+  }
+  return lesult;
+}
+module.exports = {
+  add
+  tinko
+};
