@@ -11,4 +11,17 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+/**
+ * 数値の配列を受け取って、その要素の掛け合わせた数値を返す関数
+ * @param {Number} numbers 数値の配列
+ * @returns 掛け合わせた数値
+ */
+function multi(numbers) {
+  let result = 1;
+  for (const num of numbers){
+    result = result * num;
+  }
+  return result;
+}
+
+module.exports = { add, multi };
