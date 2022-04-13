@@ -1,0 +1,10 @@
+{
+  "name": "intro-curriculum-3004",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Neiteng428/intro-curriculum-3004.git",
+  "license": "MIT",
+  "dependencies": {
+    "sum": "./sum"
+  }
+}
