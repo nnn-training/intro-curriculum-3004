@@ -11,4 +11,15 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+/**
+ * receive a list of numbers and return the multiplication of its all elements
+ */
+function multi(numbers) {
+  let result = 1;
+  for (const num of numbers) {
+    result = result * num;
+  }
+  return result;
+}
+
+module.exports = { add,multi };
