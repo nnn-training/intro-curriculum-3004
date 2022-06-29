@@ -12,7 +12,7 @@ function add(numbers) {
 }
 
 function multi(numbers) {
-  let result = 0;
+  let result = 1;
   for (const num of numbers) {
     result = result * num;
   }
