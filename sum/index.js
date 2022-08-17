@@ -14,11 +14,7 @@ function add(numbers) {
 function multi(numbers) {
   let result = 1;
   for (const num of numbers) {
-    if(num === 0) {
-      result = 0;
-    } else {
       result = result * num;
-    }
   }
   return result;
 }
