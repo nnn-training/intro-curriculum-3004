@@ -6,9 +6,17 @@
 function add(numbers) {
   let result = 0;
   for (const num of numbers) {
-    result = result + num;
+    result += num;
   }
   return result;
 }
 
-module.exports = { add };
+function multi(numbers){
+  let multiResult = 1;
+  for (const num of numbers){
+    multiResult *= num;
+  }
+  return multiResult;
+};
+
+module.exports = { add , multi };
