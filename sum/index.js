@@ -11,7 +11,7 @@ function add(numbers) {
   return result;
 }
 /**
- * 数値の配列を受け取って、整数を全て掛けあわせて返す関数
+ * 数値の配列を受け取って、その要素を全て掛けあわせて返す関数
 */
 function muliti(numbers) {
   let result = 1;
