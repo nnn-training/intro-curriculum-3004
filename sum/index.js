@@ -10,5 +10,15 @@ function add(numbers) {
   }
   return result;
 }
+/**
+ * 数値の配列を受け取って、整数を全て掛けあわせて返す関数
+*/
+function muliti(numbers) {
+  let result = 1;
+  for (const num of numbers) {
+    result *= num;
+  }
+  return result;
+}
 
-module.exports = { add };
+module.exports = { add, muliti };
