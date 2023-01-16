@@ -11,4 +11,14 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+function multi(s) {
+  let result=1;
+  for (let i=0; i < s.length; i++) {
+    result = result * s[i];
+  }
+  return result;
+}
+module.exports = {
+  add,
+  multi
+};
