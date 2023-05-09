@@ -11,4 +11,12 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+function multi(numbers) {
+  let result = numbers.shift();
+  for (const num of numbers) {
+    result = result * num;
+  }
+  return result;
+}
+
+module.exports = { add, multi };
