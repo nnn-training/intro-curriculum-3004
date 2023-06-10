@@ -12,3 +12,16 @@ function add(numbers) {
 }
 
 module.exports = { add };
+
+/**
+ * 数値の配列を受け取って、その要素をすべて掛け合わせたものを返す関数
+ */
+function multi(numbers_2) {
+  let result = 1;
+  for (const num of numbers_2) {
+    result = result * num;
+  }
+  return result;
+}
+
+module.exports = { multi };
