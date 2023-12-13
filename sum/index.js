@@ -11,4 +11,11 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+function mul(numbers)
+{
+	let result = 1;
+	for(const value of numbers) result *= value;
+	return result;
+}
+
+module.exports = { add , mul};
