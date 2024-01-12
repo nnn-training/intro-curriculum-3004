@@ -11,4 +11,16 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+function multi(n) {
+  let result = 1;
+  for (const num of n) {
+    result = result * num;
+  }
+  return result;
+}
+
+// module.exports = { add, multi };
+module.exports = {
+  add: add,
+  multi: multi
+};
