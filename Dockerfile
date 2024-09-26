@@ -7,3 +7,4 @@ RUN localedef -f UTF-8 -i ja_JP ja_JP
 ENV LANG ja_JP.UTF-8
 ENV TZ Asia/Tokyo
 WORKDIR /intro-curriculum-3004
+aaaaaa
