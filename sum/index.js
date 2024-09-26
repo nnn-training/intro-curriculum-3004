@@ -11,4 +11,23 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+function multi(numbers) {
+  let result = numbers[0];
+  for (let i = 1; i < numbers.length; i++) {
+    result = result * numbers[i];
+  }
+  return result;
+};
+
+function multi2(numbers) {
+  let result = 1;
+  for (const num of numbers) {
+    result = result * num;
+  }
+  return result;
+}
+
+
+module.exports = {
+  add, multi, multi2
+};
