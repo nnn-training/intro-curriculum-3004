@@ -11,4 +11,11 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+/**
+ * 数値の配列を受け取って、その要素の総積を返す関数
+ */
+function multi(numbers) {
+  return numbers.reduce((o,v) => o * v);
+}
+
+module.exports = { add, multi };
