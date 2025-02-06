@@ -11,4 +11,10 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+function multi(numbers){
+  let result = 1;
+  result = numbers.reduce((a,b)=>a*b,result);
+  return result;
+}
+
+module.exports = { add , multi };
