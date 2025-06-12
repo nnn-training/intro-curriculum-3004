@@ -1,3 +1,4 @@
 'use strict';
-const s = require('sum');
-console.log(s.add([1, 2, 3, 4]));
+const sum = require('sum');
+console.log(sum.add([1, 2, 3, 4]));
+console.log(sum.multi([1, 2, 3, 4]));
