@@ -11,4 +11,13 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+// 掛け算の場合
+function multi(numbers) {
+  let result = 1; // 掛け算なので1
+  for (const num of numbers) {
+    result *= num;
+  }
+  return result;
+}
+// multi関数をグローバル化
+module.exports = { add, multi};
