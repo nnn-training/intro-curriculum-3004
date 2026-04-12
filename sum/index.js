@@ -11,4 +11,19 @@ function add(numbers) {
   return result;
 }
 
-module.exports = { add };
+/**
+ * 数値の配列を受け取って、その要素を掛け合わせた数を掛け合わす
+ */
+
+function multi(numbers) {
+  let result = 1;
+  for (let num of numbers) {
+    result *= num;
+  }
+  return result;
+}
+
+module.exports = {
+  add,
+  multi 
+};
