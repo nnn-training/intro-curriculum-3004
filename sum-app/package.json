@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ls": "^1.0.0",
+    "sum": "../sum"
+  }
+}
